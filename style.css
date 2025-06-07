@@ -717,7 +717,7 @@ ul li::before {
   background-color: #3ac693;
   color: white;
   border-radius: 20px;
-  background-image: url('assets/vector/Ellipse\ 53.png');
+  background-image: url('assets/vector/Ellipse%2053.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -733,7 +733,7 @@ ul li::before {
 }
 
 .hero1 {
-  background-image: url('assets/bg/bg.png.png'); 
+  background-image: url('assets/bg/bg.png'); 
   background-size: cover;
   background-position: center;
   border-radius: 20px;
