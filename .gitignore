@@ -1,0 +1,14 @@
+# dependencies
+node_modules/
+
+# build outputs
+dist/
+
+# macOS
+.DS_Store
+
+# environment files
+.env
+git init
+git add .
+git commit -m "Initial commit: fresh repo without node_modules"
