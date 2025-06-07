@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "main.js": {
+      "runtime": "@vercel/node@20"
+    }
+  },
+  "routes": [
+    {
+      "src": "/assets/(.+)",
+      "headers": {
+        "cache-control": "s-maxage=31536000"
+      }
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+} 
