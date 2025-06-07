@@ -1,14 +1,62 @@
-# dependencies
+# Dependencies
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
 
-# build outputs
+# Build outputs
 dist/
+build/
+*.tgz
+*.tar.gz
 
-# macOS
-.DS_Store
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
 
-# environment files
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Environment files
 .env
-git init
-git add .
-git commit -m "Initial commit: fresh repo without node_modules"
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Cache
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
